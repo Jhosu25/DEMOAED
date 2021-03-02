@@ -28,14 +28,14 @@ void ordenar( int arr[], int pinicial, int pfinal)
             arr[i]=arr[j];
             arr[j]=temp;
             i++;
+            j--;
         }
     }
-    while(i<= j);
-        if (pinicial>j)
+    while(i<=j);
+        if (pinicial<j)
             ordenar(arr, pinicial,j);
         if (i<pfinal)
             ordenar(arr,i,pfinal);
 }
 
 }
-
