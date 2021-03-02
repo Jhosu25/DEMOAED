@@ -1,33 +1,30 @@
 #include <iostream>
+#include <fstream>
 #include "QUICKSORT.h"
-#include "opreaciones.h"
 
 using namespace std;
 using namespace ordenamiento;
-using namespace SR;
 
 int main()
 {
+    ofstream archivo;
+    archivo.open("Quicksort.txt", ios::app);
+
     int A[10]={88, -6, 69, -33, 98, 7, 23, -5, 0, 100};
 
     for (int i=0; i<10; i++)
     {
-        cout<<"|"<<A[i]<<"|";
+        archivo<<"|"<<A[i]<<"|";
     }
-    cout<<endl;
+    archivo<<endl;
 
     ordenar(A,0,9);
 
     for (int i=0; i<10; i++)
     {
-        cout<<"|"<<A[i]<<"|";
+        archivo<<"|"<<A[i]<<"|";
     }
-
-    //count<<mitad(A,0,9);
-
-    cout<<suma(3,6);
-
+    cout<<"Revisar el archivo creado";
     return 0;
 }
-
 
