@@ -1,0 +1,26 @@
+
+Arreglo original:
+0
+
+Arreglo original:
+0
+
+Arreglo original:
+3
+
+Arreglo original:
+4
+
+Arreglo original:
+5
+
+Arreglo ordenado es:
+0
+Arreglo ordenado es:
+0
+Arreglo ordenado es:
+3
+Arreglo ordenado es:
+4
+Arreglo ordenado es:
+5
